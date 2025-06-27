@@ -315,8 +315,20 @@ const Product = () => {
                 >
                                  <a href="#contact"> Contact Now</a>
 
-                  <ArrowRight className="ml-2" size={20} />
+                  <ArrowRight className="ml-2" size={20} href="#contact" />
                 </Button>
+
+                <Button 
+                    variant="outline" 
+                    size="lg" 
+                    className="text-lg px-8 py-4 border-2 hover:bg-gray-50/80 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3"
+                    onClick={() => window.open('https://school.soraddynamics.com', '_blank')}
+                    >
+                    <img src="/play.png" height='27' width='27' />
+
+                    Demo
+                    {/* <PlayCircleIcon size={40} className="text-blue-600" /> */}
+                    </Button>
                 {/* <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-2 hover:bg-gray-50 shadow-lg hover:shadow-xl transition-all duration-300">
             Download Brochure
           </Button> */}
