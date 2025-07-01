@@ -322,7 +322,7 @@ const Product = () => {
                     variant="outline" 
                     size="lg" 
                     className="text-lg px-8 py-4 border-2 hover:bg-gray-50/80 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3"
-                    onClick={() => window.open('https://school.soraddynamics.com', '_blank')}
+                    onClick={() => window.open('https://school.soraddynamics.comp', '_blank')}
                     >
                     <img src="/play.png" height='27' width='27' />
 
